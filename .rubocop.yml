@@ -1,0 +1,29 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - db/*
+    - bin/*
+    - spec/**/*
+    - app/**/*/*.jbuilder
+    - app/**/*/*.rabl
+Style/MutableConstant:         
+  Enabled: false               
+# Style/DateTime:
+#   Enabled: false
+# Metrics/ClassLength:
+#   Enabled: false
+Metrics/MethodLength:          
+  Enabled: false
+Layout/LineLength:
+  Max: 100
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+# Style/FrozenStringLiteralComment:
+#   Enabled: false               
+Style/Documentation:           
+  Enabled: false               
+Style/ClassAndModuleChildren:  
+  Enabled: false
+Naming/HeredocDelimiterCase:
+  Enabled: false
