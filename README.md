@@ -10,7 +10,7 @@
 
 Then install the EasyFilter Gem by adding this to your gem file
 
-`XXXXXXXXXXXXXXX`
+`gem 'easy_filter', git: 'https://github.com/Amir-Elbashary/easy_filter.git'`
 
 After than run `rails g easy_filter:install` then `rails db:migrate`
 
